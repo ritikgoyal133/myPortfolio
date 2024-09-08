@@ -1,0 +1,48 @@
+[
+    {
+        "title": "Software Developer",
+        "company": "IKEDA LIMITED",
+        "date": "September 2023 - Present",
+        "tools": [
+            "HTML",
+            "CSS",
+            "Bootstrap4",
+            "JavaScript",
+            "jQuery",
+            "PHP",
+            "Codeigniter3",
+            "MySql",
+            "Node.js",
+            "Express.js",
+            "Mongodb",
+            "Postman Tool"
+        ],
+        "description": "During my tenure, I led mobile API development for various services, focusing on enhancing APIs and UI to optimize user experience. I spearheaded the BBPS utility bill payment service, developed and improved APIs for multiple services, and enhanced their user interfaces. My role included fixing bugs, revamping UI elements, and restructuring database tables to boost efficiency. I also designed a comprehensive product portal with an admin panel, integrated PG Service for payments, and demonstrated versatility by integrating third-party APIs such as Insurance Dekho, One Xtel SMS Provider and Fingpay MATM Service."
+    },
+    {
+        "title": "Software Developer",
+        "company": "Newput Infotech Pvt Ltd.",
+        "date": "May 2022 - August 2023",
+        "tools": [
+            "HTML",
+            "CSS",
+            "SASS",
+            "Bootstrap3",
+            "JavaScript",
+            "jQuery",
+            "Angular.js",
+            "Mustache.js",
+            "React.js",
+            "Ruby",
+            "Ruby on Rails",
+            "Rspec",
+            "PostgreSQL",
+            "Redis",
+            "Algolia",
+            "Node.js",
+            "Git",
+            "A/B Testing"
+        ],
+        "description": "During my 1.4 years with the company, I contributed significantly to web development and user experience. I optimized page layouts through A/B testing, enhancing user engagement and conversions. I resolved front-end and back-end bugs, developed custom Rake tasks, and integrated Rollbar for error tracking, improving deployment and database management. Additionally, I strengthened our codebase by enhancing the RSpec testing suite, ensuring robust and reliable software. My role included bug fixes, feature implementations, and versioning with A/B testing, driving continuous innovation."
+    }
+]
