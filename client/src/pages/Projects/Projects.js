@@ -30,11 +30,11 @@ const ProjectCard = ({ project }) => {
           ))}
         </div>
         <div className="card-body text-center">
-          <div className="ad-title m-auto">
+          <div className="project-title m-auto">
             <h6 className="text-uppercase">{project.title}</h6>
           </div>
           <a
-            className={`ad-btn ${isButtonDisabled ? "disabled" : ""}`}
+            className={`view-btn ${isButtonDisabled ? "disabled" : ""}`}
             href={project.link}
             target="blank"
             rel="noopener noreferrer"
@@ -71,7 +71,7 @@ const Projects = () => {
       </h2>
       <hr />
       {/* Card design */}
-      <div className="row" id="ads">
+      <div className="row" id="projects-list">
         {projects.map((project) => (
           <ProjectCard key={project.title} project={project} />
         ))}
