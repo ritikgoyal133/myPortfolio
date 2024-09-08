@@ -43,12 +43,15 @@ app.use(limiter);
 
 // Serve static files if configured
 // For production purpose
+console.log("Serving static files from:", config.staticFiles);
 if (config.serveStatic) {
   app.use(express.static(config.staticFiles)); // Serve static files from the specified directory
 
   // Handle all other routes by serving the index.html file
   app.get("*", (req, res) => {
-    res.sendFile(path.join(config.staticFiles, "index.html"));
+    const indexPath = path.join(config.staticFiles, "index.html");
+    console.log("Serving index.html from:", indexPath);
+    res.sendFile(indexPath);
   });
 }
 
