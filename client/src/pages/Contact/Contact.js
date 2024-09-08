@@ -5,6 +5,7 @@ import { motion } from "framer-motion"; // Import motion for animations
 import { BsGithub, BsLinkedin } from "react-icons/bs"; // Import icons for social media links
 import { SiHackerrank } from "react-icons/si"; // Import Hackerrank icon
 import validator from "validator"; // Import validator for input validation
+import contactImg from "../../assets/images/contact-us.jpeg";
 import "./Contact.css";
 
 const Contact = () => {
@@ -78,11 +79,7 @@ const Contact = () => {
             >
               <div className="card1">
                 <div className="row border-line">
-                  <img
-                    src="https://img.freepik.com/free-photo/hot-line-contact-us-call-center-search-interface_53876-124009.jpg?w=2000"
-                    alt="Contact"
-                    className="image"
-                  />
+                  <img src={contactImg} alt="Contact" className="image" />
                 </div>
               </div>
             </motion.div>

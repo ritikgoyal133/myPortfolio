@@ -46,3 +46,10 @@ const About = () => {
 };
 
 export default About;
+
+// Note -> Images in the src directory are processed by Webpack and are often used with import statements or require syntax. For example:
+// import img1 from '../../assets/images/img1.jpeg';
+// Images in the public directory are served as static assets and can be referenced with absolute paths. For example:
+// function App() {
+//   return <img src="/images/mern.jpg" alt="MERN" />;
+// }
