@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"; // Import React and hooks
 import axios from "axios"; // Import axios for data fetching
 import "./Projects.css";
 import { motion } from "framer-motion";
+import projectImg from "../../assets/images/mern.jpeg";
 
 // Component to display individual project card
 const ProjectCard = ({ project }) => {
@@ -19,7 +20,7 @@ const ProjectCard = ({ project }) => {
       <div className="card rounded">
         <div className="card-image">
           <span className="card-notify-badge">{project.badge}</span>
-          <img src={project.image} alt={project.title} />
+          <img src={projectImg} alt={project.title} />
         </div>
         <div className="card-image-overly m-auto mt-3">
           {project.tech.map((tech) => (
