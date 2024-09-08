@@ -47,3 +47,5 @@ logs/*.log
 
 # Static files (if any static folder is used in public directory)
 public/static
+
+/build

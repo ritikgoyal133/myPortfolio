@@ -1,0 +1,31 @@
+[
+    {
+        "badge": "Frontend",
+        "image": "/images/mern.jpeg",
+        "tech": [
+            "React"
+        ],
+        "title": "TODO List",
+        "link": "https://ritikgoyal133.github.io/ToDoList/"
+    },
+    {
+        "badge": "Frontend",
+        "image": "/images/mern.jpeg",
+        "tech": [
+            "React"
+        ],
+        "title": "Contact List",
+        "link": "https://ritikgoyal133.github.io/trust_contact_list.github.io/"
+    },
+    {
+        "badge": "Full Stack",
+        "image": "/images/mern.jpeg",
+        "tech": [
+            "Node",
+            "Express",
+            "React"
+        ],
+        "title": "CRUD APP",
+        "link": "https://ritikgoyal133.github.io/trust_contact_list.github.io/"
+    }
+]
