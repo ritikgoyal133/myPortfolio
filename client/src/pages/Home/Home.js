@@ -37,7 +37,7 @@ const Home = () => {
             <h1>
               <Typewriter
                 options={{
-                  strings: ["FullStack Developer!", "MERN Stack Enthusiast!"],
+                  strings: ["Full Stack Developer", "Generative AI Enthusiast"],
                   autoStart: true,
                   loop: true,
                 }}
@@ -54,7 +54,7 @@ const Home = () => {
           >
             <a
               className="btn btn-hire"
-              href="https://api.whatsapp.com/send?phone=918077674622"
+              href="https://api.whatsapp.com/send?phone=919027774323"
               rel="noreferrer"
               target="_blank"
             >
@@ -63,8 +63,8 @@ const Home = () => {
             <a
               className="btn btn-cv"
               target="blank"
-              href="https://drive.google.com/file/d/1WsLK60lNS5_MFhw2zxs_pwUck1yFAg3s/view"
-              download="your_name.pdf"
+              href="https://drive.google.com/file/d/12MWyajcxsZEZynkp4TezvdW1GdzDr_V6/view?usp=drive_link"
+              download="Ritik_Resume_SDE.pdf"
             >
               My Resume
             </a>

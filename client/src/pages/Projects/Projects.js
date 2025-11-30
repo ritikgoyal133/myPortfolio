@@ -7,7 +7,7 @@ import projectImg from "../../assets/images/mern.jpeg";
 // Component to display individual project card
 const ProjectCard = ({ project }) => {
   // Determine if the View button should be disabled
-  const isButtonDisabled = project.badge === "Full Stack";
+  const isButtonDisabled = !project.isAvailable;
 
   return (
     <motion.div

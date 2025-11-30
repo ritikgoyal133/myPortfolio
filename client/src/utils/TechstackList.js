@@ -1,5 +1,5 @@
-import { BsFiletypeHtml, BsFiletypeCss, BsBootstrap } from "react-icons/bs";
-import { FaNodeJs } from "react-icons/fa";
+import { BsFiletypeHtml, BsFiletypeCss, BsBootstrap, BsSparkles } from "react-icons/bs";
+import { FaNodeJs, FaCode, FaRobot } from "react-icons/fa";
 import { SlMustache } from "react-icons/sl";
 import { DiRuby, DiRedis } from "react-icons/di";
 import {
@@ -16,6 +16,9 @@ import {
   SiGithub,
   SiAlgolia,
   SiPostman,
+  SiDocker,
+  SiCheckmarx,
+  SiOpenai,
 } from "react-icons/si";
 export const TechstackList = [
   {
@@ -114,8 +117,28 @@ export const TechstackList = [
     icon: SiAlgolia,
   },
   {
-    _id: 19,
+    _id: 20,
     name: "Postman Tool",
     icon: SiPostman,
+  },
+  {
+    _id: 21,
+    name: "Generative AI",
+    icon: SiOpenai,
+  },
+  {
+    _id: 22,
+    name: "Microservice Architecture",
+    icon: SiDocker,
+  },
+  {
+    _id: 23,
+    name: "OOPs",
+    icon: FaCode,
+  },
+  {
+    _id: 24,
+    name: "Reconciliation",
+    icon: SiCheckmarx,
   },
 ];

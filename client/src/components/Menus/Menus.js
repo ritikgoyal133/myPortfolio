@@ -2,7 +2,7 @@ import React from "react";
 import "./Menus.css";
 import { motion } from "framer-motion"; // Import motion for animations
 import { Link } from "react-scroll"; // Import Link for smooth scrolling
-import img1 from "../../assets/images/img1.jpeg"; // Import profile image
+import img1 from "../../assets/images/Ritik.png"; // Import profile image
 import {
   FcAbout,
   FcBiotech,
