@@ -1,12 +1,60 @@
 [
     {
+        "badge": "Full Stack",
+        "image": "/images/open-ai.jpeg",
+        "tech": [
+            "Node", 
+            "Express", 
+            "Groq AI"
+        ],
+        "title": "AI-PDF-Summarizer",
+        "link": "https://ai-pdf-summarizer-gne4.onrender.com/",
+        "isAvailable": true
+    },
+    {
+        "badge": "Frontend",
+        "image": "/images/mern.jpeg",
+        "tech": [
+            "Node", 
+            "Express"
+        ],
+        "title": "AI-Opponent-Tic-Tac-Toe-Game",
+        "link": "https://tic-tac-toe-game-app.onrender.com/",
+        "isAvailable": true
+    },
+    {
+        "badge": "Frontend",
+        "image": "/images/mern.jpeg",
+        "tech": [
+            "Node", 
+            "Express",
+            "Open AI"
+        ],
+        "title": "AI Powered Braj Darpan Guruvani Kendra",
+        "link": "https://brajdarpan.onrender.com/",
+        "isAvailable": true
+    },
+    {
+        "badge": "Frontend",
+        "image": "/images/mern.jpeg",
+        "tech": [
+            "Node", 
+            "Express",
+            "MongoDB"
+        ],
+        "title": "eSign Management Portal",
+        "link": "https://esignportal.onrender.com/",
+        "isAvailable": false
+    },
+    {
         "badge": "Frontend",
         "image": "/images/mern.jpeg",
         "tech": [
             "React"
         ],
         "title": "TODO List",
-        "link": "https://ritikgoyal133.github.io/ToDoList/"
+        "link": "https://ritikgoyal133.github.io/ToDoList/",
+        "isAvailable": true
     },
     {
         "badge": "Frontend",
@@ -15,7 +63,8 @@
             "React"
         ],
         "title": "Contact List",
-        "link": "https://ritikgoyal133.github.io/trust_contact_list.github.io/"
+        "link": "https://ritikgoyal133.github.io/trust_contact_list.github.io/",
+        "isAvailable": true
     },
     {
         "badge": "Full Stack",
@@ -26,6 +75,7 @@
             "React"
         ],
         "title": "CRUD APP",
-        "link": "https://ritikgoyal133.github.io/trust_contact_list.github.io/"
+        "link": "https://ritikgoyal133.github.io/trust_contact_list.github.io/",
+        "isAvailable": false
     }
 ]
