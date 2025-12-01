@@ -59,7 +59,12 @@ const Contact = () => {
         toast.error(res.data.message);
       }
     } catch (error) {
-      toast.error("An error occurred. Please try again.");
+      // Show the actual error message from the server if available
+      if (error.response && error.response.data && error.response.data.message) {
+        toast.error(error.response.data.message);
+      } else {
+        toast.error("An error occurred. Please try again.");
+      }
       console.error(error);
     } finally {
       setLoading(false); // Reset loading state
