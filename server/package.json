@@ -4,7 +4,11 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-client": "cd ../client && npm install && npm run build",
+    "copy-build": "node build.js",
+    "build": "npm run build-client && npm run copy-build",
+    "start": "node server.js"
   },
   "author": "Ritik Goyal",
   "license": "ISC",
