@@ -1,18 +1,18 @@
+// IMPORTANT: Load dotenv FIRST before any other imports that use process.env
+import "./config/dotenvConfig.js"; // This loads .env file immediately when imported
+
 import express from "express";
 import cors from "cors"; // CORS middleware to allow cross-origin requests
-import dotenv from "./config/dotenvConfig.js"; // Config to load environment variables
 import emailRoutes from "./routes/emailRoutes.js"; // Email route for handling email-related API calls
 import loggingMiddleware from "./middleware/loggingMiddleware.js"; // Custom middleware for logging requests
-import config from "./config/config.js"; // Import configuration
+import config from "./config/config.js"; // Import configuration (dotenv is already loaded above)
 import path from "path"; // For handling file paths
 import rateLimit from "express-rate-limit"; // For rate limiting
 import helmet from "helmet"; // For securing HTTP headers
 import compression from "compression"; // For response compression
 import morgan from "morgan"; // For logging HTTP requests
 import fs from "fs"; // For file system operations
-
-// Initialize dotenv to load environment variables from a .env file
-dotenv();
+import logToFile from "./utils/logger.js"; // For file logging
 
 // Create an Express application
 const app = express();
@@ -70,27 +70,15 @@ app.use(limiter);
 // Routes - API routes should come before static file serving
 app.use("/api/v1/portfolio", emailRoutes); // Route for email-related API calls
 
-// Serve static files if configured
-// For production purpose
-console.log("NODE_ENV:", process.env.NODE_ENV);
-console.log("Serving static files from:", config.staticFiles);
-console.log("serveStatic:", config.serveStatic);
-
+// Serve static files if configured (production mode)
 if (config.serveStatic) {
   // Check if build directory exists
   const staticPath = path.resolve(config.staticFiles);
   if (!fs.existsSync(staticPath)) {
-    console.error("ERROR: Build directory not found at:", staticPath);
-    console.error("Please run 'npm run build' first to build the React app.");
+    logToFile(`ERROR: Build directory not found at: ${staticPath}`);
+    console.error("ERROR: Build directory not found. Please run 'npm run build' first.");
   } else {
-    console.log("Build directory found at:", staticPath);
-    
-    // List some files to verify build exists
-    const staticJsPath = path.join(staticPath, "static", "js");
-    if (fs.existsSync(staticJsPath)) {
-      const jsFiles = fs.readdirSync(staticJsPath);
-      console.log("Found JS files:", jsFiles.slice(0, 3));
-    }
+    logToFile(`Serving static files from: ${staticPath}`);
     
     // Serve static files from the build directory
     // This must come before the catch-all route
