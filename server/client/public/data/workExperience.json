@@ -1,0 +1,83 @@
+[
+    {
+        "title": "Software Developer",
+        "company": "IOT Sporting Aspiration Pvt. Ltd.",
+        "date": "March 2025 - Present",
+        "tools": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Postman Tool",
+            "Git"
+        ],
+        "description": "Currently working as a Software Developer, where I built a complete sports-tournament management product. The platform enables users to create competitions, manage teams and player registrations, schedule matches, generate event tags, view leaderboards, and access comprehensive business analytics at both the competition and match levels."
+    },
+    {
+        "title": "Freelancer",
+        "company": "Self-Employed",
+        "date": "October 2024 - March 2025",
+        "tools": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Postman Tool",
+            "Git"
+        ],
+        "description": "Worked as a freelancer, successfully delivering projects for clients across India and the Middle East. Key clients included Suffir Cruise (Middle East client), BrajDarpan Gruruvani Kendra, and several other clients. Gained experience in working with diverse clients and managing end-to-end project delivery."
+    },
+    {
+        "title": "Software Developer",
+        "company": "IKEDA LIMITED",
+        "date": "September 2023 - October 2024",
+        "tools": [
+            "HTML",
+            "CSS",
+            "Bootstrap4",
+            "JavaScript",
+            "jQuery",
+            "PHP",
+            "Codeigniter3",
+            "MySql",
+            "Node.js",
+            "Express.js",
+            "Mongodb",
+            "Postman Tool"
+        ],
+        "description": "During my tenure, I led mobile API development for various services, focusing on enhancing APIs and UI to optimize user experience. I spearheaded the BBPS utility bill payment service, developed and improved APIs for multiple services, and enhanced their user interfaces. My role included fixing bugs, revamping UI elements, and restructuring database tables to boost efficiency. I also designed a comprehensive product portal with an admin panel, integrated PG Service for payments, and demonstrated versatility by integrating third-party APIs such as Insurance Dekho, One Xtel SMS Provider and Fingpay MATM Service."
+    },
+    {
+        "title": "Software Developer",
+        "company": "Newput Infotech Pvt Ltd.",
+        "date": "May 2022 - August 2023",
+        "tools": [
+            "HTML",
+            "CSS",
+            "SASS",
+            "Bootstrap3",
+            "JavaScript",
+            "jQuery",
+            "Angular.js",
+            "Mustache.js",
+            "React.js",
+            "Ruby",
+            "Ruby on Rails",
+            "Rspec",
+            "PostgreSQL",
+            "Redis",
+            "Algolia",
+            "Node.js",
+            "Git",
+            "A/B Testing"
+        ],
+        "description": "During my 1.4 years with the company, I contributed significantly to web development and user experience. I optimized page layouts through A/B testing, enhancing user engagement and conversions. I resolved front-end and back-end bugs, developed custom Rake tasks, and integrated Rollbar for error tracking, improving deployment and database management. Additionally, I strengthened our codebase by enhancing the RSpec testing suite, ensuring robust and reliable software. My role included bug fixes, feature implementations, and versioning with A/B testing, driving continuous innovation."
+    }
+]

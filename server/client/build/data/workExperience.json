@@ -1,8 +1,43 @@
 [
     {
         "title": "Software Developer",
+        "company": "IOT Sporting Aspiration Pvt. Ltd.",
+        "date": "March 2025 - Present",
+        "tools": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Postman Tool",
+            "Git"
+        ],
+        "description": "Currently working as a Software Developer, where I built a complete sports-tournament management product. The platform enables users to create competitions, manage teams and player registrations, schedule matches, generate event tags, view leaderboards, and access comprehensive business analytics at both the competition and match levels."
+    },
+    {
+        "title": "Freelancer",
+        "company": "Self-Employed",
+        "date": "October 2024 - March 2025",
+        "tools": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Postman Tool",
+            "Git"
+        ],
+        "description": "Worked as a freelancer, successfully delivering projects for clients across India and the Middle East. Key clients included Suffir Cruise (Middle East client), BrajDarpan Gruruvani Kendra, and several other clients. Gained experience in working with diverse clients and managing end-to-end project delivery."
+    },
+    {
+        "title": "Software Developer",
         "company": "IKEDA LIMITED",
-        "date": "September 2023 - Present",
+        "date": "September 2023 - October 2024",
         "tools": [
             "HTML",
             "CSS",
